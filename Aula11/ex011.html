@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Sistema de nacionalidade</h1>
+    Vivendo em: <input type="string" name="txtvel" id="txtvel">  
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    
+    <script>
+    
+        function verificar(){
+            var txtv = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('div#res')
+            var local = String(txtv.value)
+                if(local == 'Brasil'){
+                        res.innerHTML += `<p>Você é <strong>Brasileiro!</strong><p>` 
+                }else{
+                    res.innerHTML += `<p>Você não é <strong>Brasileiro!</strong><p>`
+                }
+             }     
+                
+    </script>
+    
+</body>
+</html>
