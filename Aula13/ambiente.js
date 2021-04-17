@@ -5,14 +5,15 @@ do{
 } while(c <= 10)
 
 
-/*var c = 1        Estrutura de repetição com teste lógico no ínicio
+var c = 1        //Estrutura de repetição com teste lógico no ínicio
 while(c <= 10){
     console.log(`Passo ${c}`)
     c++ 
 }
-*/
 
-/*                 Estrutura de repetição com força bruta
+
+               // Estrutura de repetição com força bruta
+               
 console.log('Tudo bem?')
 console.log('Tudo bem?')
 console.log('Tudo bem?')
@@ -20,4 +21,3 @@ console.log('Tudo bem?')
 console.log('Tudo bem?')
 console.log('Tudo bem?')
 console.log('Tudo bem?')
-*/
