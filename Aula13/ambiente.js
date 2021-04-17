@@ -12,7 +12,7 @@ while(c <= 10){
 }
 */
 
-/*                 Estruta de repetição com força bruta
+/*                 Estrutura de repetição com força bruta
 console.log('Tudo bem?')
 console.log('Tudo bem?')
 console.log('Tudo bem?')
